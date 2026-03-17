@@ -9,7 +9,8 @@ from torchvision import transforms
 from torchvision.datasets import ImageFolder
 from torchvision import transforms
 from torch.utils.data import DataLoader
-from transformers import ViTFeatureExtractor, ViTModel, AutoModel
+from transformers import ViTImageProcessor, ViTModel, AutoModel
+ViTFeatureExtractor = ViTImageProcessor  # ViTFeatureExtractor removed in transformers>=4.44
 
 print("DEBUG: IMPORT - 3")
 from PIL import Image

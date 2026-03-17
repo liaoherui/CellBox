@@ -6,7 +6,8 @@ import numpy as np
 
 print("DEBUG: IMPORT - 2")
 from torchvision import transforms
-from transformers import ViTFeatureExtractor, ViTModel
+from transformers import ViTImageProcessor, ViTModel
+ViTFeatureExtractor = ViTImageProcessor  # ViTFeatureExtractor removed in transformers>=4.44
 
 print("DEBUG: IMPORT - 3")
 from PIL import Image

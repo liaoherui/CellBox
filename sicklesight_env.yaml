@@ -55,7 +55,7 @@ dependencies:
   - tomli
   - tornado
   - tqdm
-  - transformers
+  - transformers=4.51.3
   - typing-extensions
   - urllib3
   - wheel

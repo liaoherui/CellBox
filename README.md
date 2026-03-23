@@ -1,6 +1,6 @@
 # SickleSight
 
-**SickleSight** is an AI-based toolkit for quantitative analysis of sickle cell disease dynamics from video microscopy data. It combines deep learning segmentation, Vision Transformer (ViT) classification, Siamese network state detection, and optical flow tracking to characterize individual red blood cells across time — producing publication-quality statistics, visualizations, and annotated videos.
+**SickleSight** is an AI-based toolkit for quantitative analysis of sickle cell disease dynamics from video microscopy data. It combines deep learning segmentation, Vision Transformer (ViT) classification, Siamese network state detection, and optical flow tracking to characterize individual red blood cells across time: producing publication-quality statistics, visualizations, and annotated videos.
 
 
 ---
